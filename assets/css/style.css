@@ -1,0 +1,1061 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    padding: 0px 80px;
+    padding-top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    cursor: pointer;
+}
+nav ul{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #222222;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+nav a:hover{
+color: #24AB70;
+}
+nav .login{
+    width: 76px;
+    height: 40px;
+    color: white;
+    background: #24AB70;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Open Sans';
+    cursor: pointer;
+}
+nav .login:hover{
+    background-color: rgba(36, 171, 112, 0.04);
+    color: #24AB70;
+}
+nav .i{
+    display: none;
+    background-color: white;
+    color: #222222;
+    border: none;
+    font-size: 16px;
+}
+header .ul{
+    width: 100%;
+    list-style: none;
+}
+header .hero{
+    background: rgba(36, 171, 112, 0.04);
+    border-radius: 50px;
+}
+header .hero .one{
+    display: flex;
+    margin-top: 40px;
+}
+header .ul{
+    display: none;
+    padding-top: 50px;
+}
+header .hero .one .title{
+    padding-top: 8%;
+    padding-left: 6%;
+    align-items: center;
+}
+header .hero .one .title h1{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 6.4rem;
+    line-height: 80px;
+}
+header .hero .one .title p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 32px;
+    color: #555555;
+}
+header .hero .one .title .watch{
+    display: flex;
+    align-items: center;
+}
+header .hero .one .title .watch i{
+    font-size: 18px;
+    padding: 18px 20px;
+    background-color: white;
+    color: #24AB70;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header .hero .one .title .watch i:hover{
+    background-color: #24AB70;
+    color: white;
+}
+header .hero .one .title .watch span{
+    margin-left: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+form{
+    height: 125px;
+    display: flex;
+    padding-left: 3%;
+    position: absolute;
+    left: 11.94%;
+    right: 13.94%;
+    top: 80%;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.08);
+    border-radius: 280px;
+}
+form .EE{
+    margin: 10px 0px;
+    width: 15%;
+    display: flex;
+    border-right: 1px solid #E8E8E8;
+    align-items: center;
+}
+form .E{
+    margin-left: 4%;
+}
+form span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+form i{
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+form .data{
+    margin-left: 20px;
+}
+form input{
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+form button{
+    width: 25%;
+    border: none;
+    border-radius: 250px;
+    margin-left: 10%;
+    background-color: #24AB70;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+form button i{
+    color: white;
+    margin-right: 20px;
+}
+.sec2{
+    margin-top: 8%;
+}
+.sec2 h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5em;
+}
+.sec2 .sec2_tow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.sec2 .sec2_tow .p{
+    width: 30%;
+    color: #555555;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.sec2 .sec2_tow button{
+    padding: 10px 20px;
+    background: rgba(36, 171, 112, 0.1);
+    color: #24AB70;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
+    border-radius: 280px;
+}
+.sec2 .sec2_tow button:hover{
+    color: #E8E8E8;
+    background-color: #24AB70;
+}
+.sec2 .container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2 .container .box{
+    width: 32%;
+}
+.sec2 .container .box .img1{
+    background-image: url(../img/one.png);
+}
+.sec2 .container .box .img2{
+    background-image: url(../img/two.png);
+}
+.sec2 .container .box .img3{
+    background-image: url(../img/three.png);
+}
+.sec2 .container .box .img1,.img2,.img3{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.sec2 .container .box .text{
+    width: 100%;
+    height: 200px;
+    background-color: #FAFAFA;
+    padding: 30px 20px 0px 20px;
+}
+.sec2 .container .box .text h2{
+    color: #24AB70;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.sec2 .container .box .text h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: 20px 0px;
+}
+.sec2 .container .box .text .evaluation{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+.sec2 .container .box .text .evaluation span{
+    color: #555555;
+}
+.sec_3{
+    display: flex;
+    height: 70vh;
+}
+.sec_3 .sec_text{
+    width: 30%;
+}
+.sec_3 .sec_text h1{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+.sec_3 .sec_text p{
+    color: #555555;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 40px 0px;
+}
+.sec_3 .sec_text button{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #24AB70;
+    color: white;
+}
+.sec_3 .sec_text button:hover{
+    background-color: #E8E8E8;
+    color: #24AB70;
+}
+.sec_3 .icons{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sec_3 .icons .icon_one{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.icons .icon_one .icon{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.icons .icon_one .icon img{
+    width: 30%;
+    margin-bottom: 20px;
+}.icons .icon_one .icon:hover{
+    transform: translateY(-10px);
+}
+.icons .icon_one .icon p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+}
+.sec_4{
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+.sec_4 .container{
+    display: flex;
+    border-radius: 20px;
+    background-color: #F4FBF8;
+}
+.sec_4 .container .text{
+    padding: 70px 215px 0px 65px;
+}
+.sec_4 .container .text h1{
+    color: #222222;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+.sec_4 .container .text p{
+    color: #555555;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.sec_4 .container .text button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #24AB70;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.sec_4 .container .text button:hover{
+    background-color: #E8E8E8;
+    color: #24AB70;
+}
+.sec_5{
+    height: 70vh;
+}
+.sec_5 .container{
+    display: flex;
+    position: relative;
+    background-color: #FAFAFA;
+}
+.sec_5 .container i{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 50%;
+    color: #24AB70;
+    cursor: pointer;
+}.sec_5 .container i:hover{
+    background-color: #24AB70;
+    color: white;
+}
+.sec_5 .container .left{
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+}
+.sec_5 .container .right{
+    position: absolute;
+    top: 50%;
+    left: 97%;
+    transform: translateX(50%);
+
+}
+.sec_5 .container .text{
+    padding: 80px 250px 0px 75px;
+    text-align: justify;
+}
+.sec_5 .container .text p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+}
+.sec_5 .container .text h1{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.sec_6{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.sec_7{
+    position: relative;
+}
+.sec_7 iframe{
+    width: 100%;
+    height: 80vh;
+}
+.sec_7 .box{
+    width: 95%;
+    height: 150px;
+    padding: 30px;
+    padding-bottom: 0px;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 35px;
+    border-radius: 10px;
+}
+.sec_7 .box h1{
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+.sec_7 .box .data{
+    display: flex;
+    justify-content: space-between;
+}
+.sec_7 .box .data p{
+    max-width: 500px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.sec_7 .box .data .input {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.sec_7 .box .data .input input{
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color:#FAFAFA ;
+    padding-left: 20px;
+}
+.sec_7 .box .data .input button{
+    width: 150px;
+    height: 100%;
+    background-color: #24AB70;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    right: 0px;
+}
+.sec_7 .box .data .input button:hover{
+    color: #24AB70;
+    background-color: #E8E8E8;
+}
+footer{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .one{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    list-style: none;
+}
+footer .one a{
+    text-decoration: none;
+    color: #222222;
+}
+footer .one a:hover{
+    color: #24AB70;
+}
+footer .one span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+footer .one span:hover{
+    color: #222222;
+}
+footer .one img{
+    width: 100px;
+    cursor: pointer;
+}
+footer .one .icon{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+footer .one .icon img{
+    width: 25px;
+}
+@media screen and (max-width: 900px) and (min-width:401px){
+    body{
+        padding: 10px 30px;
+    }
+    .hero .one{
+        height: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .login{
+        display: none;
+    }
+    nav .i{
+        display: block;
+    }
+    header .hero .title h1{
+        line-height: 60px;
+    }
+    header .hero .img_hero{
+        display: none;
+    }
+    form{
+        border-radius: 10px;
+        width: 90%;
+        height: 500px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 20px;
+        padding-top: 20px;
+        position: static;
+    }
+    form .EE{
+        width: 100%;
+        margin: 0px;
+        border: none;
+        padding-bottom: 20px;
+        border-bottom: 1px solid gray;
+    }
+    form .E{
+        margin-top: 10px;
+    }
+    form .data{
+        width: 100%;
+    }
+    form button span{
+        display: none;
+    }
+    form button i{
+        margin: 0px;
+    }
+    form button{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: relative;
+        top: 90px;
+        left: 32%;
+    }
+    header .ul ul{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+    }
+    header .ul a{
+        text-decoration: none;
+        color: #222222;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        cursor: pointer;
+    }
+    header .ul .login{
+        margin-top: 30px;
+        padding: 10px 30px;
+        color: #24AB70;
+        background: #E8E8E8;
+        border: none;
+        cursor: pointer;
+    }
+    .sec2 {
+        margin-top: 20%;
+    }
+    .sec2 h1{
+        font-size: 4em;
+    }
+    .sec2 .sec2_tow .p{
+        width: 100%;
+    }
+    .sec2 .sec2_tow{
+        height: 120px;
+        align-items: start;
+        flex-direction: column;
+    }
+    .sec2 .container .box .img1,.img2,.img3{
+        height: 36%;
+        background-size: 100% 100%;
+    }
+    .sec2 .container .box .text h1{
+        max-width: 150px;
+        font-size: 1.8em;
+    }
+    .sec2 .container .box .text .evaluation{
+        justify-content: start;
+        flex-direction: column;
+    }
+    .sec_3{
+        display: block;
+    }
+    .sec_3 .sec_text{
+        width: 100%;
+    }
+    .sec_3 .sec_text button{
+        margin-bottom: 20px;
+    }
+    .sec_3 .icons{
+        width: 100%;
+        gap: 15px;
+    }
+    .sec_3 .icons .icon_one{
+        padding-left: 0px;
+    }
+    .sec_3 .icons .icon_one .icon{
+        width: 24%;
+    }
+    .sec_4{
+        margin-top: 250px;
+    }
+    .sec_4 .container{
+        flex-direction: column;
+    }
+    .sec_4 .container .img{
+        width: 100%;
+    }
+    .sec_4 .container .img img{
+        width: 100%;
+    }
+    .sec_4 .container .text{
+        padding: 50px 0px 0px 20px;
+    }
+    .sec_5 .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sec_5 .container .right{
+        left: 93%;
+    }
+    .sec_5 .container .text{
+        order: 2;
+        text-align: center;
+        padding: 80px 75px 0px 75px;
+    }
+    .sec_5 .container .text p{
+        color: #222222;
+        font-weight: 600;
+    }
+    .sec_5 .container .text span{
+        color: #555555;
+    }
+    .sec_5 .container .img{
+        order: 1;
+    }
+    .sec_6{
+        flex-direction: column;
+        margin-top: 400px;
+        align-items: center;
+    }
+    .sec_7 .box{
+        height: 50%;
+        top: 48%;
+        left: 15px;
+    }
+    .sec_7 .box .data{
+        height: 50%;
+        flex-direction: column;
+    }
+    .sec_7 .box .data .input{
+        width: 100%;
+        height: 50px;
+    }
+    .sec_7 .box .data .input input{
+        width: 100%;
+        height: 65px;
+        border-radius: 0px;
+    }
+    .sec_7 .box .data .input button{
+        width: 50%;
+        height: 65px;
+        border-radius: 0px
+    }
+    footer .one{
+        width: 140px;
+        gap: 35px;
+    }
+    footer .logo{
+        width: 300px;
+    }
+    footer .E{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        padding: 10px 30px;
+    }
+    .hero .one{
+        height: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .login{
+        display: none;
+    }
+    nav .i{
+        display: block;
+    }
+    header .hero .one .title h1{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    header .hero .one .title p{
+        font-size: 1rem;
+    }
+    header .hero .one .img_hero{
+        display: none;
+    }
+    header .hero .title .one .watch i{
+        font-size: 1rem;
+        padding: 8px 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    header .hero .title .one .watch span{
+        margin-left: 10px;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 0.96rem;
+        line-height: 30px;
+    }
+    form{
+        border-radius: 10px;
+        width: 90%;
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 20px;
+        padding-top: 15px;
+        position: static;
+    }
+    form button span{
+        display: none;
+    }
+    form button i{
+        margin: 0px;
+    }
+    form button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+        top: 40px;
+        left: 32%;
+    }
+    form .EE{
+        width: 100%;
+        margin: 0px;
+        border: none;
+        padding-bottom: 20px;
+        border-bottom: 1px solid gray;
+    }
+    form .E{
+        margin-top: 10px;
+    }
+    form span{
+        font-size: 10px;
+    }
+    form input{
+        font-size: 7px;
+    }
+    header .ul ul{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+    }
+    header .ul a{
+        text-decoration: none;
+        color: #222222;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        cursor: pointer;
+    }
+    header .ul .login{
+        margin-top: 30px;
+        padding: 10px 30px;
+        color: #24AB70;
+        background: #E8E8E8;
+        border: none;
+        cursor: pointer;
+    }
+    .sec2 {
+        margin-top: 20%;
+        margin-bottom: 260px;
+    }
+    .sec2 h1{
+        font-size: 4em;
+    }
+    .sec2 .sec2_tow .p{
+        width: 100%;
+    }
+    .sec2 .sec2_tow{
+        height: 120px;
+        align-items: start;
+        flex-direction: column;
+    }
+    .sec2 .container{
+        height: 200vh;
+        flex-direction: column;
+    }
+    .sec2 .container .box {
+        width: 100%;
+    }
+    .sec2 .container .box .text h2{
+        font-size: 1.5em;
+    }
+    .sec2 .container .box .text h1{
+        font-size: 2.5em;
+    }
+    .sec2 .container .box .text .evaluation{
+        justify-content: start;
+        flex-direction: column;
+        font-size: 1.3em;
+    }
+    .sec2 .container .box .img1,.img2,.img3{
+        height: 100%;
+        background-size: 100% 100%;
+    }
+    .sec_3{
+        height: 165vh;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .sec_3 .sec_text{
+        width: 100%;
+    }
+    .sec_3 .sec_text h1 {
+        font-size: 2.7em;
+        line-height: 40px;
+    }
+    .sec_3 .sec_text p {
+        margin: 15px 0px;
+    }
+    .sec_3 .sec_text button{
+        margin-bottom: 20px;
+    }
+    .sec_3 .icons{
+        width: 100%;
+        gap: 15px;
+    }
+    .sec_3 .icons .icon_one .icon{
+        width: 130px;
+        height: 130px;
+    }
+    .sec_3 .icons .icon_one {
+        height: 40%;
+        padding-left: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .sec_3 .icons .icon_one .icon img{
+        width: 40%;
+    }
+    .sec_3 .icons .icon_one .icon p{
+        font-size: 12px;
+    }
+    .sec_4 .container{
+        flex-direction: column;
+    }
+    .sec_4 .container .img{
+        width: 100%;
+    }
+    .sec_4 .container .img img{
+        width: 100%;
+    }
+    .sec_4 .container .text{
+        padding: 50px 0px 0px 20px;
+    }
+    .sec_4 .container .text p{
+        font-size: 14px;
+    }
+    .sec_5 .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sec_5 .container .text{
+        order: 2;
+        text-align: center;
+        padding: 80px 0px;
+    }
+    .sec_5 .container .text p{
+        color: #222222;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .sec_5 .container .text span{
+        color: #555555;
+    }
+    .sec_5 .container .img{
+        width: 100%;
+        order: 1;
+    }
+    .sec_5 .container .img img{
+        width: 100%;
+    }
+    .sec_5 .container .i{
+        top: 25%;
+    }
+    .sec_5 .container .right{
+        left: 88%;
+    }
+    .sec_6{
+        flex-direction: column;
+        margin-top: 500px;
+        align-items: center;
+    }
+    .sec_7 iframe {
+        width: 100%;
+        height: 100vh;
+    }
+    .sec_7 .box{
+        height: 65%;
+        top: 33%;
+        left: 8px;
+        padding: 30px 15px;
+    }
+    .sec_7 .box h1{
+        font-size: 30px;
+    }
+    .sec_7 .box .data{
+        height: 50%;
+        flex-direction: column;
+    }
+    .sec_7 .box .data p {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .sec_7 .box .data .input{
+        width: 100%;
+        height: 85px;
+        flex-direction: column;
+    }
+    .sec_7 .box .data .input input{
+        width: 100%;
+        height: 65px;
+        border-radius: 0px;
+    }
+    .sec_7 .box .data .input button{
+        width: 100%;
+        height: 65px;
+        border-radius: 0px;
+        position: static;
+    }
+    footer{
+        margin-left: 0px;
+    }
+    footer .one{
+        width: 150px;
+        margin-top: 50px;
+        gap: 40px;
+    }
+    footer .logo{
+        width: 300px;
+    }
+}
